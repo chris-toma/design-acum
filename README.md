@@ -87,16 +87,12 @@ During initialization:
 3. **Deploy to Firebase**
 
 ```bash
+npm run build
 firebase deploy
 ```
 
 4. **Environment Variables in Production**
 
-For production deployment, you need to set environment variables in Firebase:
-
-```bash
-firebase functions:config:set firebase.apikey="your-api-key" firebase.authdomain="your-project-id.firebaseapp.com" firebase.projectid="your-project-id" firebase.storagebucket="your-project-id.appspot.com" firebase.messagingsenderid="your-messaging-sender-id" firebase.appid="your-app-id"
-```
 
 ## Security Best Practices
 
